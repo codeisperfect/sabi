@@ -1,0 +1,3 @@
+Order Cancel
+Hey Admin
+{uname} just canceled the order from chef {cname}. Refund him.

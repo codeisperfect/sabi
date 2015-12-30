@@ -1,0 +1,4 @@
+Food Order
+Hey Chef {cname},
+Order with ID {oid} is confirmed for {datetime}.
+Items: {foodname}

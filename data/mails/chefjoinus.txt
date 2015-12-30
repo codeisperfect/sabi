@@ -1,0 +1,4 @@
+Chef joined
+Admin,
+{cname}(Chef) just joined on website.
+Login and add dishes to his account.

@@ -1,0 +1,3 @@
+Kurrybox: Order cancelled
+Dear {uname}
+Your order has been cancelled.

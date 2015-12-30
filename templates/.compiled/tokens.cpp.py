@@ -1,0 +1,57 @@
+#This code is auto generated code, don't Edit it 
+outpvar.cur.addfcdata("main2");
+outpvar.cur.fcalldata["main2"].cur.addfcdata("header4");
+outpvar.cur.fcalldata["main2"].addchilds(newtag_header4(cod([]), ginp, outpvar.cur.fcalldata["main2"].cur.fcalldata["header4"].root.content).root.content);
+outpvar.cur.fcalldata["main2"].open(htmlnode("div", extentattrs(cod([("class", "container")]))));
+outpvar.cur.fcalldata["main2"].open(htmlnode("h3", extentattrs(cod([]))));
+outpvar.cur.fcalldata["main2"].addtext("Discount Tokens");
+outpvar.cur.fcalldata["main2"].close();
+outpvar.cur.fcalldata["main2"].open(htmlnode("div", extentattrs(cod([("class", "row")]))));
+outpvar.cur.fcalldata["main2"].open(htmlnode("div", extentattrs(cod([("class", "col s12 l12 m12")]))));
+outpvar.cur.fcalldata["main2"].addtext("Token value can be like '45' or '15%' ");
+outpvar.cur.fcalldata["main2"].close();
+outpvar.cur.fcalldata["main2"].open(htmlnode("form", extentattrs(cod([("data", cod([("action", "add_token"), ("onsubmit", "sreq"), ("bobj", ""), ("res", "ms.reload();")]))]))));
+outpvar.cur.fcalldata["main2"].cur.addfcdata("input3");
+outpvar.cur.fcalldata["main2"].addchilds(newtag_input3(cod([("label", "Token"), ("name", "name"), ("aclass", "col s6 l2 m3")]), ginp, outpvar.cur.fcalldata["main2"].cur.fcalldata["input3"].root.content).root.content);
+outpvar.cur.fcalldata["main2"].cur.addfcdata("input3");
+outpvar.cur.fcalldata["main2"].addchilds(newtag_input3(cod([("label", "Token Value"), ("name", "value"), ("aclass", "col s6 l2 m3")]), ginp, outpvar.cur.fcalldata["main2"].cur.fcalldata["input3"].root.content).root.content);
+outpvar.cur.fcalldata["main2"].cur.addfcdata("input3");
+outpvar.cur.fcalldata["main2"].addchilds(newtag_input3(cod([("label", "Start Date"), ("name", "startdate"), ("iclass", "datepicker"), ("aclass", "col s6 l2 m3")]), ginp, outpvar.cur.fcalldata["main2"].cur.fcalldata["input3"].root.content).root.content);
+outpvar.cur.fcalldata["main2"].cur.addfcdata("input3");
+outpvar.cur.fcalldata["main2"].addchilds(newtag_input3(cod([("label", "Expire Date"), ("name", "enddate"), ("iclass", "datepicker"), ("aclass", "col s6 l2 m3")]), ginp, outpvar.cur.fcalldata["main2"].cur.fcalldata["input3"].root.content).root.content);
+outpvar.cur.fcalldata["main2"].cur.addfcdata("select2");
+outpvar.cur.fcalldata["main2"].addchilds(newtag_select2(cod([("tlist", ["Multiple Time", "One Time"]), ("vlist", ["0", "1"]), ("name", "isonetime"), ("dclass", "col s6 l2 m3")]), ginp, outpvar.cur.fcalldata["main2"].cur.fcalldata["select2"].root.content).root.content);
+outpvar.cur.fcalldata["main2"].cur.addfcdata("button2");
+outpvar.cur.fcalldata["main2"].addchilds(newtag_button2(cod([("text", "Add"), ("attr", cod([("type", "submit")]))]), ginp, outpvar.cur.fcalldata["main2"].cur.fcalldata["button2"].root.content).root.content);
+outpvar.cur.fcalldata["main2"].close();
+outpvar.cur.fcalldata["main2"].close();
+outpvar.cur.fcalldata["main2"].open(htmlnode("br", extentattrs(cod([]))));
+outpvar.cur.fcalldata["main2"].open(htmlnode("br", extentattrs(cod([]))));
+outpvar.cur.fcalldata["main2"].open(htmlnode("table", extentattrs(cod([("class", "bordered")]))));
+outpvar.cur.fcalldata["main2"].open(htmlnode("thead", extentattrs(cod([]))));
+outpvar.cur.fcalldata["main2"].open(htmlnode("tr", extentattrs(cod([]))));
+for i in forlist(["Token", "Value", "Start Date", "Expire Date", "Type", ""], False ) :
+  outpvar.cur.fcalldata["main2"].open(htmlnode("th", extentattrs(cod([]))));
+  outpvar.cur.fcalldata["main2"].addtext(i);
+  outpvar.cur.fcalldata["main2"].close();
+outpvar.cur.fcalldata["main2"].close();
+outpvar.cur.fcalldata["main2"].close();
+outpvar.cur.fcalldata["main2"].open(htmlnode("tbody", extentattrs(cod([]))));
+for i in forlist(ginp["tokens"], False ) :
+  outpvar.cur.fcalldata["main2"].open(htmlnode("tr", extentattrs(cod([]))));
+  for j in forlist(["name", "value", "startdatetext", "enddatetext"], False ) :
+    outpvar.cur.fcalldata["main2"].open(htmlnode("td", extentattrs(cod([]))));
+    outpvar.cur.fcalldata["main2"].addtext(i[j]);
+    outpvar.cur.fcalldata["main2"].close();
+  outpvar.cur.fcalldata["main2"].open(htmlnode("td", extentattrs(cod([]))));
+  outpvar.cur.fcalldata["main2"].addtext(["One Time", "Multiple Time"][int((i["isonetime"] == "0"))]);
+  outpvar.cur.fcalldata["main2"].close();
+  outpvar.cur.fcalldata["main2"].open(htmlnode("td", extentattrs(cod([]))));
+  outpvar.cur.fcalldata["main2"].cur.addfcdata("button2");
+  outpvar.cur.fcalldata["main2"].addchilds(newtag_button2(cod([("text", "delete"), ("data", cod([("action", "delete_token"), ("onclick", "sreq"), ("res", "ms.reload();")])), ("datas", cod([("name", i["name"])]))]), ginp, outpvar.cur.fcalldata["main2"].cur.fcalldata["button2"].root.content).root.content);
+  outpvar.cur.fcalldata["main2"].close();
+  outpvar.cur.fcalldata["main2"].close();
+outpvar.cur.fcalldata["main2"].close();
+outpvar.cur.fcalldata["main2"].close();
+outpvar.cur.fcalldata["main2"].close();
+outpvar.addchilds(newtag_main2(cod([("js", [])]), ginp, outpvar.cur.fcalldata["main2"].root.content).root.content);

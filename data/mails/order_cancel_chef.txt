@@ -1,0 +1,3 @@
+Kurrybox: Order cancelled
+Dear Chef {cname}
+Somebody just cancelled an order from you.

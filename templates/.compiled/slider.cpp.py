@@ -1,0 +1,35 @@
+#This code is auto generated code, don't Edit it 
+outpvar.cur.addfcdata("main2");
+outpvar.cur.fcalldata["main2"].cur.addfcdata("header4");
+outpvar.cur.fcalldata["main2"].addchilds(newtag_header4(cod([]), ginp, outpvar.cur.fcalldata["main2"].cur.fcalldata["header4"].root.content).root.content);
+outpvar.cur.fcalldata["main2"].open(htmlnode("div", extentattrs(cod([("class", "container")]))));
+outpvar.cur.fcalldata["main2"].open(htmlnode("h3", extentattrs(cod([]))));
+outpvar.cur.fcalldata["main2"].addtext("Upload Offer Sliders");
+outpvar.cur.fcalldata["main2"].close();
+outpvar.cur.fcalldata["main2"].open(htmlnode("form", extentattrs(cod([("attr", cod([("enctype", "multipart/form-data"), ("method", "post")]))]))));
+outpvar.cur.fcalldata["main2"].cur.addfcdata("a1");
+outpvar.cur.fcalldata["main2"].addchilds(newtag_a1(cod([("text", "Upload Offer Slider"), ("attr", cod([("onclick", "uploadfile(this, \"offersliders\");")]))]), ginp, outpvar.cur.fcalldata["main2"].cur.fcalldata["a1"].root.content).root.content);
+outpvar.cur.fcalldata["main2"].open(htmlnode("br", extentattrs(cod([]))));
+outpvar.cur.fcalldata["main2"].open(htmlnode("span", extentattrs(cod([]))));
+outpvar.cur.fcalldata["main2"].addtext("Best Slider: 900*254 px, even if it not of that size, It will be forcefully converted to required size.");
+outpvar.cur.fcalldata["main2"].close();
+outpvar.cur.fcalldata["main2"].close();
+outpvar.cur.fcalldata["main2"].open(htmlnode("br", extentattrs(cod([]))));
+outpvar.cur.fcalldata["main2"].open(htmlnode("br", extentattrs(cod([]))));
+outpvar.cur.fcalldata["main2"].open(htmlnode("div", extentattrs(cod([]))));
+for i in forlist(ginp["images"], False ) :
+  outpvar.cur.fcalldata["main2"].open(htmlnode("div", extentattrs(cod([("class", "row")]))));
+  outpvar.cur.fcalldata["main2"].open(htmlnode("div", extentattrs(cod([("class", "col l8 s4 m4")]))));
+  outpvar.cur.fcalldata["main2"].open(htmlnode("img", extentattrs(cod([("attr", cod([("src", i["image"])])), ("class", "responsive-img")]))));
+  outpvar.cur.fcalldata["main2"].close();
+  outpvar.cur.fcalldata["main2"].open(htmlnode("div", extentattrs(cod([("class", "col l4 s4 m4")]))));
+  outpvar.cur.fcalldata["main2"].cur.addfcdata("button2");
+  outpvar.cur.fcalldata["main2"].addchilds(newtag_button2(cod([("text", "Delete"), ("datas", cod([("id", i["id"])])), ("data", cod([("action", "slider_delete"), ("onclick", "sreq"), ("res", "ms.reload();")]))]), ginp, outpvar.cur.fcalldata["main2"].cur.fcalldata["button2"].root.content).root.content);
+  outpvar.cur.fcalldata["main2"].cur.addfcdata("button2");
+  outpvar.cur.fcalldata["main2"].addchilds(newtag_button2(cod([("text", "MoveTop"), ("datas", cod([("id", i["id"])])), ("data", cod([("action", "slider_movetop"), ("onclick", "sreq"), ("res", "ms.reload();")]))]), ginp, outpvar.cur.fcalldata["main2"].cur.fcalldata["button2"].root.content).root.content);
+  outpvar.cur.fcalldata["main2"].close();
+  outpvar.cur.fcalldata["main2"].close();
+  outpvar.cur.fcalldata["main2"].open(htmlnode("hr", extentattrs(cod([]))));
+outpvar.cur.fcalldata["main2"].close();
+outpvar.cur.fcalldata["main2"].close();
+outpvar.addchilds(newtag_main2(cod([("js", [])]), ginp, outpvar.cur.fcalldata["main2"].root.content).root.content);
